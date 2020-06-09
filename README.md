@@ -85,7 +85,7 @@ describe('First spec', () => {
 
 ### Create mocha config file
 
-Create file with name in root of directory
+Create file with name `.mocharc.json` in root of directory of your project
 
 ```
 {
@@ -107,7 +107,38 @@ Create file with name in root of directory
 
 ### Run your first test
 
+Make sure we have this command in the `package.json`
+
+```
+"test": "mocha"
+```
+
+Then run following command in the terminal:
 
 ```
 npm test
 ```
+
+You will see following output then you are all set.
+
+```
+> ts-tdd@1.0.0 test <your-project-directory-path>
+> mocha
+
+
+
+  First spec
+    ✓ passes
+
+
+  1 passing (11ms)
+
+```
+
+### Run your test in watch mode
+
+```
+npm test -- --watch 
+```
+
+This way if you change in your any file and save it test will automatically run.
