@@ -1,0 +1,29 @@
+{
+  "name": "ts-tdd",
+  "version": "1.0.0",
+  "description": "Basic skeleton for the start in Typescript",
+  "main": "index.js",
+  "dependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "chai": "^4.2.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "mocha": "^7.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somanwal/ts-tdd.git"
+  },
+  "author": "Deepak Manwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/somanwal/ts-tdd/issues"
+  },
+  "homepage": "https://github.com/somanwal/ts-tdd#readme"
+}
