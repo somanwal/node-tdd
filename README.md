@@ -83,6 +83,28 @@ describe('First spec', () => {
 
 ```
 
+### Create mocha config file
+
+Create file with name in root of directory
+
+```
+{
+  "diff": true,
+  "extension": ["ts"],
+  "require": ["ts-node/register"],
+  "package": "./package.json",
+  "reporter": "spec",
+  "slow": 75,
+  "timeout": 2000,
+  "ui": "bdd",
+  "watch-files": ["**/*.ts"],
+  "watch-ignore": ["node_modules"],
+  "spec": "**/*.spec.ts"
+}
+
+```
+
+
 ### Run your first test
 
 
