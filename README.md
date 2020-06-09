@@ -5,8 +5,23 @@ This is the repository of basic skeleton for the start in Typescript.
 
 ## Initial setup
 
+### Create new repository
+
+Create a new repository and clone  
+
+```
+git clone <git_repo_url>
+```
 
 ### Initialize npm
+
+Navigate to the repo
+
+```
+cd <directory_name>
+```
+
+Initialize npm
 
 ```
 npm init
