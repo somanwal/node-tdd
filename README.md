@@ -108,8 +108,6 @@ Create file with name in root of directory
 ### Run your first test
 
 
-Add this command in your package.json to run test
-
 ```
-"test": "mocha -r ts-node/register spec/**/*.spec.ts"
+npm test
 ```
